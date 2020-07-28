@@ -47,29 +47,35 @@ require(__DIR__."/class/locais.class.php");
                                 <label for="local-cep" class="col-form-label">CEP:</label>
                                 <input type="text" class="form-control cep" id="local-cep" name="cep" required>
                             </div>
-                            <div class="form-group">
-                                <label for="local-logradouro" class="col-form-label">Logradouro:</label>
-                                <input type="text" class="form-control" id="local-logradouro" name="logradouro" required>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label for="local-logradouro" class="col-form-label">Logradouro:</label>
+                                    <input type="text" class="form-control" id="local-logradouro" name="logradouro" required>
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="local-complemento" class="col-form-label">Complemento:</label>
+                                    <input type="text" class="form-control" id="local-complemento" name="complemento" required>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="local-complemento" class="col-form-label">Complemento:</label>
-                                <input type="text" class="form-control" id="local-complemento" name="complemento" required>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label for="local-numero" class="col-form-label">Numero:</label>
+                                    <input type="number" class="form-control" id="local-numero" name="numero" required>
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="local-bairro" class="col-form-label">Bairro:</label>
+                                    <input type="text" class="form-control" id="local-bairro" name="bairro" required>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="local-numero" class="col-form-label">Numero:</label>
-                                <input type="number" class="form-control" id="local-numero" name="numero" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="local-bairro" class="col-form-label">Bairro:</label>
-                                <input type="text" class="form-control" id="local-bairro" name="bairro" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="local-uf" class="col-form-label">Estado:</label>
-                                <input type="text" maxlength="2" class="form-control" id="local-uf" name="estado" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="local-cidade" class="col-form-label">Cidade:</label>
-                                <input type="text" class="form-control" id="local-cidade" name="cidade" required>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label for="local-uf" class="col-form-label">Estado:</label>
+                                    <input type="text" maxlength="2" class="form-control" id="local-uf" name="estado" required>
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="local-cidade" class="col-form-label">Cidade:</label>
+                                    <input type="text" class="form-control" id="local-cidade" name="cidade" required>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="local-data" class="col-form-label">Data:</label>
@@ -105,29 +111,35 @@ require(__DIR__."/class/locais.class.php");
                                 <label for="editar-local-cep" class="col-form-label">CEP:</label>
                                 <input type="text" class="form-control cep" id="editar-local-cep" name="cep" required>
                             </div>
-                            <div class="form-group">
-                                <label for="editar-local-logradouro" class="col-form-label">Logradouro:</label>
-                                <input type="text" class="form-control" id="editar-local-logradouro" name="logradouro" required>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label for="editar-local-logradouro" class="col-form-label">Logradouro:</label>
+                                    <input type="text" class="form-control" id="editar-local-logradouro" name="logradouro" required>
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="editar-local-complemento" class="col-form-label">Complemento:</label>
+                                    <input type="text" class="form-control" id="editar-local-complemento" name="complemento" required>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="editar-local-complemento" class="col-form-label">Complemento:</label>
-                                <input type="text" class="form-control" id="editar-local-complemento" name="complemento" required>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label for="editar-local-numero" class="col-form-label">Numero:</label>
+                                    <input type="number" class="form-control" id="editar-local-numero" name="numero" required>
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="editar-local-bairro" class="col-form-label">Bairro:</label>
+                                    <input type="text" class="form-control" id="editar-local-bairro" name="bairro" required>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="editar-local-numero" class="col-form-label">Numero:</label>
-                                <input type="number" class="form-control" id="editar-local-numero" name="numero" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="editar-local-bairro" class="col-form-label">Bairro:</label>
-                                <input type="text" class="form-control" id="editar-local-bairro" name="bairro" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="editar-local-uf" class="col-form-label">Estado:</label>
-                                <input type="text" maxlength="2" class="form-control" id="editar-local-uf" name="estado" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="editar-local-cidade" class="col-form-label">Cidade:</label>
-                                <input type="text" class="form-control" id="editar-local-cidade" name="cidade" required>
+                            <div class="row">
+                                <div class="form-group col-6">
+                                    <label for="editar-local-uf" class="col-form-label">Estado:</label>
+                                    <input type="text" maxlength="2" class="form-control" id="editar-local-uf" name="estado" required>
+                                </div>
+                                <div class="form-group col-6">
+                                    <label for="editar-local-cidade" class="col-form-label">Cidade:</label>
+                                    <input type="text" class="form-control" id="editar-local-cidade" name="cidade" required>
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="editar-local-data" class="col-form-label">Data:</label>
