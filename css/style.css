@@ -1,0 +1,24 @@
+a{
+    cursor: pointer;
+}
+.alert a{
+    color: #104bb8;
+}
+a.btn-add-local{
+    color: #fff;
+    padding: 0px 9px 5px 9px;
+    border-radius: 100%;
+}
+a.btn-add-local:hover{
+    color:#fff;
+    background-color: #0d5baf;
+}
+#modalCadastro .btn-primary, #modalEditar .btn-primary{
+    background:#cc9933;
+    color:#fff;
+}
+
+table.table tr.MG{
+    background-color: #2f7fae;
+    color:#fff;
+}
